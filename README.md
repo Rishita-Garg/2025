@@ -8,8 +8,6 @@
 - [Installation](#installation)  
 - [Usage](#usage)  
 - [Project Structure](#project-structure)  
-- [Contributing](#contributing)  
-- [License](#license)  
 - [Contact](#contact)  
 
 ---
@@ -88,7 +86,7 @@ job-portal/
 
 ## **Contact**  
 📩 If you have any questions or suggestions, feel free to reach out:  
-🔗 **Email:** yrishitagarg20@gmail.com  
+🔗 **Email:** rishitagarg20@gmail.com  
 
 
 ---
