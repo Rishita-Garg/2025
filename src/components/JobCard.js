@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { Card, CardBody, CardTitle, CardSubtitle, Badge, Button, Row, Col } from "reactstrap"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faMapMarkerAlt, faDollarSign, faBriefcase, faClock } from "@fortawesome/free-solid-svg-icons"
+import { faMapMarkerAlt, faDollarSign, faBriefcase, faClock,faBuilding } from "@fortawesome/free-solid-svg-icons"
 
 const JobCard = ({ job }) => {
   return (
@@ -10,11 +10,13 @@ const JobCard = ({ job }) => {
         <Row>
           <Col xs="12" md="8">
             <div className="d-flex align-items-center mb-3">
-              <img
-                src={job.company.logo || "https://via.placeholder.com/60"}
-                alt={job.company.name}
-                className="company-logo me-3"
-              />
+            <FontAwesomeIcon
+  icon={faBuilding}
+  className="fs-2 text-light me-3"
+  style={{ backgroundColor: "black", padding: "5px", borderRadius: "5px" }}
+/>
+
+
               <div>
                 <CardTitle tag="h5" className="mb-1">
                   {job.title}
