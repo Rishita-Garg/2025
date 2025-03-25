@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCode,
   faBriefcase,
@@ -7,7 +8,8 @@ import {
   faGraduationCap,
   faShoppingBag,
   faBuilding,
-} from "@fortawesome/free-solid-svg-icons"
+} from "@fortawesome/free-solid-svg-icons";
+
 
 export const jobCategories = [
   {

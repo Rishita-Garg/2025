@@ -2,6 +2,8 @@
 
 import { useState, useEffect, useContext } from "react"
 import { useParams, Link, useNavigate } from "react-router-dom"
+
+// Reactstrap Components
 import {
   Container,
   Row,
@@ -16,6 +18,8 @@ import {
   TabContent,
   TabPane,
 } from "reactstrap"
+
+// Font Awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faMapMarkerAlt,
@@ -30,6 +34,8 @@ import {
   faCheck,
   faShare,
 } from "@fortawesome/free-solid-svg-icons"
+
+
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import { mockJobs } from "../data/mockData"
