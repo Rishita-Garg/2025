@@ -140,13 +140,7 @@ const LoginPage = () => {
               </Card>
 
               <div className="text-center mt-4">
-                <p className="text-muted small">
-                  For demo purposes, use:
-                  <br />
-                  <strong>Job Seeker:</strong> john@example.com / password
-                  <br />
-                  <strong>Employer:</strong> jane@example.com / password
-                </p>
+                
               </div>
             </Col>
           </Row>
